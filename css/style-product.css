@@ -1,0 +1,97 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+nav{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    display:flex;
+    flex-wrap: wrap;
+    line-height: 50px;
+    font-size: 24;
+    font-family: 'Arial';
+    margin: auto;
+    width :100%;
+    background-color: white;
+    z-index: 1;
+    border-bottom: 1px solid black;
+    background-color: aqua;
+}
+.logo{
+    position: relative;
+    margin-left:50%;
+    float: left;
+    width: 150px;
+}
+.btl-New{
+    position:fixed;
+    top: 10;
+    float: left;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+}
+.logout{
+    position:fixed;
+    font-size: 15px;
+    right: 10%;
+    text-decoration: none;
+}
+
+.container{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    display: flex;
+   margin-left: 5%;
+   margin-top: 5%;
+}
+
+.top-11{
+    grid-column: 1/2;
+}
+.top-12{
+    grid-column: 2/3;
+}
+.top-13{
+    grid-column: 3/4;
+}
+.top-13{
+    grid-column: 4/5;
+}
+.top-14{
+    grid-column: 5/6;
+}
+.top-15{
+    grid-column: 6/7;
+}
+
+.card{
+    margin-top:10px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    position: relative;
+    height: 220px;
+    text-decoration: none;
+}
+
+button{
+    border: 0 solid white;
+}
+
+.edit{
+    border: 0 solid white;
+    margin-left: 90px;
+}
+.delete{
+    border: 0 solid white;
+}
+.card-body{
+    text-decoration: none;
+    text-align: left;
+    margin-left: 10;
+    margin-top: 5;
+}
